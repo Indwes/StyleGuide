@@ -1,5 +1,5 @@
-![Header Image](http://www.monolinea.com/wp-content/uploads/styleguide@2x-845x250@2x.png)
-Style-Guide-Boilerplate Bootstrap Edition
+![Header Image](/images/StyleGuideHeader.png)
+IWU-Style-Guide Bootstrap Edition
 ==============================
 
 A starting point for crafting living style guides for Bootstrap-based projects.
