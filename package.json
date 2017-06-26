@@ -1,0 +1,25 @@
+{
+  "name": "styleguide",
+  "version": "1.0.0",
+  "description": "![Header Image](/images/StyleGuideHeader.png) IWU-Style-Guide Bootstrap Edition ==============================",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Indwes/StyleGuide.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Indwes/StyleGuide/issues"
+  },
+  "homepage": "https://github.com/Indwes/StyleGuide#readme",
+  "devDependencies": {
+    "node-php-server": "^0.1.2"
+  }
+}

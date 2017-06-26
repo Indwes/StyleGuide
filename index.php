@@ -127,16 +127,16 @@ echo '<li role="presentation" class="divider"></li><li role="presentation" class
 <!-- Style Guide Boilerplate Styles -->
 <link rel="stylesheet" href="css/styleguide.css">
 
-<link rel="stylesheet" href="https://www.indwes.edu/_files/css/bootstrap.min.css">
-<link href="https://www.indwes.edu/_files/fancybox/jquery.fancybox.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="https://www.indwes.edu/_files/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!--<link href="https://www.indwes.edu/_files/fancybox/jquery.fancybox.css" rel="stylesheet" type="text/css">-->
+<link rel="stylesheet" href="https://www.indwes.edu/_resources/co.bundle.css">
 
 <!-- Font Awesome -->
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 
 <!-- Replace below stylesheet with your own stylesheet -->
 </head>
-<body   data-spy="scroll" data-target=".navbar-default" data-offset="60" >
+<body data-spy="scroll" data-target=".navbar-default" data-offset="60" >
 <!-- Fixed navbar -->
 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -149,11 +149,7 @@ echo '<li role="presentation" class="divider"></li><li role="presentation" class
           <li role="presentation" class="divider"></li>
           <li role="presentation" class="dropdown-header">Base Styles</li>
           <?php listMarkupAsOptions('base'); ?>
-          <li role="presentation" class="divider"></li>
-          <li role="presentation" class="dropdown-header">Patterns</li>
-          <?php listMarkupAsOptions('patterns'); ?>
-          <li role="presentation" class="dropdown-header">Custom</li>
-          <?php listMarkupAsOptions('custom'); ?>
+
         </ul>
       </li>
     </ul>
@@ -185,9 +181,7 @@ echo '<li role="presentation" class="divider"></li><li role="presentation" class
 </div>
 <!--/.sg-body--> 
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script> 
-<script src="https://www.indwes.edu/_files/bootstrap/bootstrap.min.js"></script> 
-<script src="https://www.indwes.edu/_files/fancybox/jquery.fancybox.js" type="text/javascript">
-</script>
+<script src="/bootstrap.min.js"></script> 
 <script src="js/sg-plugins.js" ></script>
 
 <script src="js/sg-scripts-ck.js" ></script>
